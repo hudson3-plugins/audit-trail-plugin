@@ -51,9 +51,9 @@ import java.util.logging.Formatter;
 import java.util.regex.Pattern;
 import javax.servlet.ServletException;
 import net.sf.json.JSONObject;
-import org.acegisecurity.context.SecurityContextHolder;
 import org.kohsuke.stapler.QueryParameter;
 import org.kohsuke.stapler.StaplerRequest;
+import org.springframework.security.context.SecurityContextHolder;
 
 /**
  * Keep audit trail of particular Jenkins operations, such as configuring jobs.
