@@ -53,7 +53,7 @@ import javax.servlet.ServletException;
 import net.sf.json.JSONObject;
 import org.kohsuke.stapler.QueryParameter;
 import org.kohsuke.stapler.StaplerRequest;
-import org.springframework.security.context.SecurityContextHolder;
+import org.springframework.security.core.context.SecurityContextHolder;
 
 /**
  * Keep audit trail of particular Jenkins operations, such as configuring jobs.
